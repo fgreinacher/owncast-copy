@@ -22,6 +22,22 @@ export const ChatModal: FC<ChatModalProps> = ({ messages, currentUser, handleClo
   }
   const { id, displayName, isModerator } = currentUser;
 
+  const modalWrapperStyle = {
+    zIndex: 799,
+    top: 'unset',
+  };
+
+  const modalContentStyle = {
+    padding: 0,
+  };
+
+  const modalHeaderStyle = {
+    padding: '16px 24px',
+    background: 'var(--theme-color-components-modal-header-background)',
+    margin: 0,
+    borderBottom: '1px solid #f0f0f0',
+  };
+
   const modalBodyStyle = {
     padding: '0px',
     height: '55vh',
@@ -44,11 +60,18 @@ export const ChatModal: FC<ChatModalProps> = ({ messages, currentUser, handleClo
         maskClosable={false}
         footer={null}
         title={<UserDropdown id="chat-modal-user-menu" showToggleChatOption={false} />}
-        maskStyle={{
-          zIndex: 700,
-        }}
         className={styles.root}
-        bodyStyle={modalBodyStyle}
+        styles={{
+          header: modalHeaderStyle,
+          body: modalBodyStyle,
+          mask: { zIndex: 700 },
+          content: modalContentStyle,
+          // styles.wrapper was added recently (5.10.0) and wrapClassName isn't working
+          // So, using ts-ignore for now until the documentation/implementation mismatch is resolved
+          // Reported Ant Design issue: https://github.com/ant-design/ant-design/issues/45481
+          // @ts-ignore
+          wrapper: modalWrapperStyle,
+        }}
         wrapClassName={styles.modalWrapper}
         onCancel={handleClose}
       >

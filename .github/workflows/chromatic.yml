@@ -49,3 +49,5 @@ jobs:
           workingDir: web
           projectToken: f47410569b62
           onlyChanged: true
+          externals: |
+            - '**.scss'
