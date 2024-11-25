@@ -84,7 +84,7 @@ require (
 	github.com/oapi-codegen/runtime v1.1.1
 	github.com/shirou/gopsutil/v3 v3.24.5
 	github.com/shirou/gopsutil/v4 v4.24.8
-	github.com/stretchr/testify v1.9.0
+	github.com/stretchr/testify v1.10.0
 	github.com/yuin/goldmark-emoji v1.0.3
 	gopkg.in/evanphx/json-patch.v5 v5.9.0
 	mvdan.cc/xurls/v2 v2.5.0
