@@ -21,7 +21,7 @@ require (
 	github.com/sirupsen/logrus v1.9.3
 	github.com/teris-io/shortid v0.0.0-20220617161101-71ec9f2aa569
 	github.com/yuin/goldmark v1.7.4
-	golang.org/x/mod v0.21.0
+	golang.org/x/mod v0.22.0
 	golang.org/x/time v0.6.0
 )
 
@@ -87,7 +87,7 @@ require (
 	github.com/stretchr/testify v1.10.0
 	github.com/yuin/goldmark-emoji v1.0.3
 	gopkg.in/evanphx/json-patch.v5 v5.9.0
-	mvdan.cc/xurls/v2 v2.5.0
+	mvdan.cc/xurls/v2 v2.6.0
 )
 
 replace github.com/go-fed/activity => github.com/owncast/activity v1.0.1-0.20211229051252-7821289d4026
