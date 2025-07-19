@@ -1,6 +1,6 @@
 module github.com/owncast/owncast
 
-go 1.22.0
+go 1.23.0
 
 toolchain go1.23.1
 
@@ -70,7 +70,7 @@ require (
 	github.com/oschwald/maxminddb-golang v1.13.0 // indirect
 	github.com/pmezard/go-difflib v1.0.0 // indirect
 	github.com/shoenig/go-m1cpu v0.1.6 // indirect
-	golang.org/x/sync v0.10.0 // indirect
+	golang.org/x/sync v0.15.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
 
@@ -79,7 +79,7 @@ require (
 	github.com/TwiN/go-away v1.6.13
 	github.com/andybalholm/cascadia v1.3.3
 	github.com/go-chi/chi/v5 v5.1.0
-	github.com/jellydator/ttlcache/v3 v3.3.0
+	github.com/jellydator/ttlcache/v3 v3.4.0
 	github.com/mssola/user_agent v0.6.0
 	github.com/oapi-codegen/runtime v1.1.1
 	github.com/shirou/gopsutil/v3 v3.24.5
