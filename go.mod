@@ -81,7 +81,7 @@ require (
 	github.com/go-chi/chi/v5 v5.1.0
 	github.com/jellydator/ttlcache/v3 v3.3.0
 	github.com/mssola/user_agent v0.6.0
-	github.com/oapi-codegen/runtime v1.1.1
+	github.com/oapi-codegen/runtime v1.1.2
 	github.com/shirou/gopsutil/v3 v3.24.5
 	github.com/shirou/gopsutil/v4 v4.24.8
 	github.com/stretchr/testify v1.10.0
