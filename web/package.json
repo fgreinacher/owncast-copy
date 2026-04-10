@@ -112,7 +112,7 @@
 		"install": "^0.13.0",
 		"knip": "^5.0.0",
 		"less": "4.4.2",
-		"less-loader": "12.3.0",
+		"less-loader": "12.3.2",
 		"mdx-mermaid": "^2.0.0",
 		"mermaid": "^10.0.0",
 		"npm": "^10.0.0",
