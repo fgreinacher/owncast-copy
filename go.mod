@@ -90,4 +90,4 @@ require (
 	mvdan.cc/xurls/v2 v2.6.0
 )
 
-replace github.com/go-fed/activity => github.com/owncast/activity v1.0.1-0.20211229051252-7821289d4026
+replace github.com/go-fed/activity => github.com/owncast/activity v1.0.1-0.20260122170223-675f6eb53e71
